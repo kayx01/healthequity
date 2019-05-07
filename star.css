@@ -1,0 +1,50 @@
+
+body {
+
+Font-family: "Raleway", serif;
+color: white;
+Overflow-x : hidden;
+Overflow-y : hidden;
+
+}
+
+.star {
+Background: -webkit-linear-gradient(top, #ACB6E5 0%, #74ebd5 100%);
+Background:-moz-linear-gradient(top, #ACB6E5 0%, #74ebd5 100%);
+height: 700px;
+width: 100%;
+padding: 50px;
+margin-left: -20px;
+margin-top: -20px;
+margin-bottom: -80px;
+}
+
+.star img {
+  margin-left: 650px;
+}
+
+
+ h1 {
+    margin-left: 600px;
+    margin-top: 200px;
+    margin-right: auto;
+}
+
+#home{
+
+    color: #fff;
+
+	display: block;
+	width: 120px;
+	font-size: 24px;
+
+	padding: 10px;
+	text-align: center;
+	margin: 20px auto;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: #ACB6E5;
+    margin-left: 625px;
+   
+}
+

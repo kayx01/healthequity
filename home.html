@@ -1,0 +1,105 @@
+<html>
+    <head>
+           
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="home.css">
+        
+					<title> Home </title>
+
+    </head>
+    <body>
+
+            <header id ="top">
+                    <div class="nav">
+                        <label for="toggle">&#9776;</label> 
+                            <input type="checkbox" id="toggle"/> 
+                                <div class="menu">
+                
+                                    <a href="index.html">Home</a>
+                                    <a href="home.html">Digital Health &#x1F680; </a>
+                                    <a href="quiz.html"> How much do you know?</a>
+                                    <a href="forum.html">Wall of knowledge </a>
+                                    <a href="sign-up.html">Sign up </a>
+                                
+
+                                </div>
+                    </div>
+                </header>
+
+
+
+    <div class ="container">
+
+            <div class ="corner">
+                    <img src ="corner.svg"/>
+                    
+                </div>
+                <div class="lead">
+                
+
+        <h1>Home</h1>
+       
+      
+        
+            <p> 
+               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et <br>
+											dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat <br>
+											 non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+
+           <button onclick="change()"> # </button>
+        </div>
+       
+
+       
+<div class = "forum">  
+        <div id="milk"> 
+                            <h5> Milk doesn't make your blood acidic. But do you know what does?</h5>
+							<p> <iframe src="https://giphy.com/embed/gQzoxR4vrBYg8" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/spongebob-squarepants-patrick-star-gQzoxR4vrBYg8">via GIPHY</a></p>
+							</p>
+                            <p> The air. </p>
+                     </div>
+
+                     <br>
+                        <a id="show-more">Learn More</a>
+</div>
+
+					
+							<script src="home.js"></script>
+
+
+
+       
+
+            
+        
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAM89g5Fu7aQjIkLpb0K-eTj_aDRMNsp_g",
+    authDomain: "healthcare-database.firebaseapp.com",
+    databaseURL: "https://healthcare-database.firebaseio.com",
+    projectId: "healthcare-database",
+    storageBucket: "healthcare-database.appspot.com",
+    messagingSenderId: "148788781258"
+  };
+  firebase.initializeApp(config);
+  const db = firebase.firestore();
+  db.settings({ timestampsInSnapshots: true });
+</script>
+<script src="forum.js"></script>
+
+
+    </body>
+<footer>
+  <p> Hand-crafted with &#x1F49C; by <a href= "https://www.linkedin.com/in/florence-kay-105315180/">Florence Kay </a><br><br>
+		 Copywright, no one try to finesse my idea, I've worked so hard on this <br> <br>twitter |facebook |linkedin |instagram </p>
+</footer>
+</html>

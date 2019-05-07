@@ -1,0 +1,445 @@
+body {
+
+Font-family: "Raleway", serif;
+color: white;
+Overflow-x : hidden;
+
+}
+
+.header {
+ Background: -webkit-linear-gradient(top, #ACB6E5 0%, #74ebd5 100%);
+	Background:-moz-linear-gradient(top, #ACB6E5 0%, #74ebd5 100%);
+	height: 700px;
+}
+
+
+.nav {
+	width: 100%; 
+	position: absolute;
+	z-index: 1; 
+	top: 0;
+	left: 0; 
+	height: 100px;
+	font-size: 25px;
+  
+	text-align: right;
+	line-height: 70px;
+
+	background-color: transparent;
+}
+	
+.menu {
+		margin: 0 10px 0 0;
+		padding-top: 20px;
+		width: 50%; 
+	
+}
+	
+.menu a {
+   
+	color: white;
+	margin: 0 10px;
+	line-height: 40px;
+	text-decoration: none;
+
+	font-size: 14px;	
+}
+	
+	
+#toggle {
+	right: 20px;
+	display: none;
+}
+	
+	
+	
+label {
+	display: none;
+	margin: 0 40px 0 0;
+	font-size: 26px
+	line height: 70px;
+}
+
+
+
+.corner img {
+    position: absolute;
+    margin-left: 480px;
+    margin-top: -5px;
+    width: 70%;
+  
+}
+
+.container {
+
+
+height: 900px;
+margin-left: -20px;
+margin-right: -20px;
+margin-top: -30px;
+}
+
+h1 {
+padding-left: 700px;
+padding-top: 200px;
+
+}
+
+.header img {
+	width: 400px;
+	height: 300px;
+	margin-left: 350px;
+	margin-top: 50px;
+
+}
+
+.header p {
+	margin-left: 100px;
+	margin-right: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.header h1 {
+	padding-top: 120px;
+}
+
+/*.lunar img {
+	margin-left: -50px;
+}*/
+
+.interim img {
+	float: right;
+	width: 40%;
+	height: 30%;
+	margin-top: 400px;
+}
+
+button {
+	border: 0;
+    Background: -webkit-linear-gradient(left, #ACB6E5 0%, #74ebd5 100%);
+    Background:-moz-linear-gradient(left, #ACB6E5 0%, #74ebd5 100%);
+    border-radius: 50%;
+	padding: 30px;
+	z-index: 1;
+	margin-left: 1000px;
+	margin-top: 350px;
+	position: fixed;
+	height: 75px;
+	width: 75px;
+    
+    /*box-shadow: -1px 0px 1px rgba(0,0,0,0.1);*/
+    font-weight: bold;
+    /*letter-spacing: 1px;*/
+    color: white;
+	Font-family: "Raleway", serif;
+	box-shadow: 5px;
+}
+
+button:hover{
+	cursor: pointer;
+}
+
+
+.auth {
+	width: 100%;
+
+}
+
+
+.login {
+    margin-top: 100px;
+    background: white;
+}
+
+span:before {
+	content: 'Community';
+	animation: animate infinite 8s;
+	margin-left: 750px;
+}
+
+@keyframes animate {
+	0% {
+		content: 'Community';
+
+	}
+
+	25% {
+		content: 'Intersectional';
+	}
+
+	50% {
+		content: 'Valued';
+	}
+
+	75% {
+		content: 'Trust';
+	}
+
+	100% {
+		content: 'Culture';
+	}
+
+}
+
+
+#firebaseui-auth-container {
+	    Background: -webkit-linear-gradient(top, white 0%, #cdebf9 100%);
+    Background:-moz-linear-gradient(top, white 0%, #cdebf9 100%);
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-color: #DCDCDC;
+	box-shadow: 0 0 5px #DCDCDC ;
+	border-radius: 5px;
+	width: 1005;
+}
+#firebaseui-auth-container p {
+	color: #ACB6E5;
+	padding-left: 100px;
+}
+
+.features {
+Background: -webkit-linear-gradient(top, white 0%, #cdebf9 100%);
+Background:-moz-linear-gradient(top, white 0%, #cdebf9 100%);
+height: 400px;
+padding: 70px;
+height: 50%;
+}
+
+.features img {
+	margin-left: 45%;
+	margin-top: 20px;
+
+}
+
+.bite {
+	width: 20%;
+	margin-left: 100px;
+	border-color: #DCDCDC;
+	box-shadow: 0 0 5px #DCDCDC ;
+	background: white;
+	border-radius: 5px;
+}
+
+.bite p {
+	color: #ACB6E5;
+
+	padding: 20px;
+}
+
+/* Features
+*/
+
+.game {
+	width: 20%;
+	/*margin-top: -1500px;*/
+	margin-left: 100px;
+	border-color: #DCDCDC;
+	box-shadow: 0 0 5px #DCDCDC ;
+	background: white;
+	border-radius: 5px;
+}
+
+.game p {
+	color: #ACB6E5;
+	padding: 20px;
+}
+
+
+.reward {
+	width: 20%;
+	/*margin-top: -200px;*/
+	margin-left: 100px;
+	/*margin-right: 60px;*/
+	/*float: right;*/
+	border-color: #DCDCDC;
+	box-shadow: 0 0 5px #DCDCDC ;
+	background: white;
+	border-radius: 5px;
+}
+
+.reward p {
+	color: #ACB6E5;
+	padding: 20px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color:#ACB6E5;
+}
+
+footer {
+    color:gray;
+    background: white;
+    margin-top: 0px;
+	margin-bottom: -40px;
+	margin-left: -20px;
+	margin-right: -20px;
+    bottom: -10px;
+	padding: 40px;
+	/*position: absolute;*/
+}
+
+footer p {
+	text-align: center;
+}
+
+
+/*Mobile responsive web design*/
+
+@media only screen and (max-width: 1500px) {
+	label {
+		display: block;
+		cursor: pointer; 
+		color: white;
+		margin-left: 25px;
+		margin-right: 400px;
+}
+	
+#toggle {
+	margin-left: -50px;
+	
+	width: 50px;
+}
+	
+.nav {
+	background-color: transparent;
+	position: fixed;
+	/*opacity: 0.8;*/
+}
+
+.menu {
+text-align: center;
+width: 100%;
+height: 600px;
+display: none;
+background: black;
+padding-top: 90px;
+opacity: 0.8;
+
+}
+
+.menu a {
+		display: block;	
+		margin-top: 10px;
+		margin-bottom: 15px;
+		/*opacity: 0.8;*/
+		color: white;
+}
+
+.menu a:hover {
+	color: pink;
+}
+
+#toggle:checked + .menu{
+display: block; 
+
+}
+	
+
+.menu a:hover {
+	color: pink;
+}
+
+h1 {
+	padding-left: 200px;
+	padding-top: 100px;
+	
+	}
+
+.header img {
+	margin-top: 35px;
+	margin-left: 40px;
+}
+
+button {
+		border: 0;
+		Background: -webkit-linear-gradient(left, #ACB6E5 0%, #74ebd5 100%);
+		Background:-moz-linear-gradient(left, #ACB6E5 0%, #74ebd5 100%);
+		border-radius: 50%;
+		padding: 30px;
+		z-index: 1;
+		margin-left: 200px;
+		margin-top: 200px;
+		position: fixed;
+		height: 75px;
+		width: 75px;
+		
+		/*box-shadow: -1px 0px 1px rgba(0,0,0,0.1);*/
+		font-weight: bold;
+		/*letter-spacing: 1px;*/
+		color: white;
+		Font-family: "Raleway", serif;
+		box-shadow: 5px;
+}
+	
+button:hover{
+		cursor: pointer;
+}
+
+.bite {
+	width: 70%;
+	margin-left: 50px;
+	border-color: #DCDCDC;
+	box-shadow: 0 0 5px #DCDCDC ;
+	background: white;
+	border-radius: 5px;
+}
+
+.bite p {
+	color: #ACB6E5;
+
+	padding: 20px;
+}
+
+/* Features
+*/
+
+.game {
+	width: 70%;
+	/*margin-top: -1500px;*/
+	margin-left: 50px;
+	border-color: #DCDCDC;
+	box-shadow: 0 0 5px #DCDCDC ;
+	background: white;
+	border-radius: 5px;
+}
+
+.game p {
+	color: #ACB6E5;
+	padding: 20px;
+}
+
+
+.reward {
+	width: 70%;
+	/*margin-top: -200px;*/
+	margin-left: 50px;
+	/*margin-right: 60px;*/
+	/*float: right;*/
+	border-color: #DCDCDC;
+	box-shadow: 0 0 5px #DCDCDC ;
+	background: white;
+	border-radius: 5px;
+	margin-bottom: 50px;
+}
+
+.reward p {
+	color: #ACB6E5;
+	padding: 20px;
+}
+
+.features {
+	padding-bottom: 50px;
+	height: 60%;
+}
+
+
+
+
+}

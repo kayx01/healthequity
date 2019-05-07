@@ -1,0 +1,124 @@
+<html>
+    <head>
+           
+            <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> 
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="forum.css">
+        
+					<title> Wall of Knowledge </title>
+
+    </head>
+    <body>
+
+            <header id ="top">
+                    <div class="nav">
+                        <label for="toggle">&#9776;</label> 
+                            <input type="checkbox" id="toggle"/> 
+                                <div class="menu">
+                
+                                    <a href="index.html">Home</a>
+                                    <a href="home.html">Digital Health &#x1F680; </a>
+                                    <a href="quiz.html"> How much do you know?</a>
+                                    <a href="forum.html">Wall of Knowledge </a>
+                                    <a href="sign-up.html">Sign up </a>
+                                
+
+                                </div>
+                    </div>
+                </header>
+
+
+
+    <div class ="container">
+
+            <!----<div class ="corner">
+                    <img src ="corner.svg"/>
+                    
+                </div>-->
+                <div class="lead">
+                
+
+        <h1>What would you like to know?</h1>
+        </div>
+        <div class="prize">
+            <p> 
+                We highly encourage you to ask any health related questions you're curious or unsure about so we can answer them for you. <br>
+                Your name won't be shown. <br>
+                The more questions you ask, the more points you'll receive which means the more rewards and prizes will be sent to you :) <br>
+                We ask that you share with us the city you live in and the year you were born to help us give you personalised prizes and rewards *smiley face* <br>
+                Learn something new and add to our wall of knowledge
+            </p>
+
+            </p>
+        </div>
+        </div>
+
+       
+        <div class = "forum">  
+                <div class="animated infinite pulse">
+<div class="content">
+    <img src="https://img.icons8.com/color/48/000000/critical-thinking.png">
+       
+            <form id="data">
+                <h2> Add to our wall of knowledge</h2>
+                <input type="number" name="year" placeholder="Year of Birth"> <br>
+    
+                <input type="text" name="city" placeholder="Your City"> <br>
+                <input type="text" name="country" placeholder="Your Country"> <br>
+                <input type="text" name="question" placeholder="What would you like to know?"> <br>
+                <button onclick="change()">Learn something new </button>
+              
+            </form>
+
+            <!--<ul id="learn"></ul>-->
+
+        </div>
+        </div>
+</div>
+
+</div>
+<script>
+function change()
+
+{
+	swal({
+  title: "You're a star!",
+  text: "Rewards will be coming your way",
+  icon: "success",
+  button: "OK",
+});
+	
+}
+</script>
+       
+
+            
+        
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAM89g5Fu7aQjIkLpb0K-eTj_aDRMNsp_g",
+    authDomain: "healthcare-database.firebaseapp.com",
+    databaseURL: "https://healthcare-database.firebaseio.com",
+    projectId: "healthcare-database",
+    storageBucket: "healthcare-database.appspot.com",
+    messagingSenderId: "148788781258"
+  };
+  firebase.initializeApp(config);
+  const db = firebase.firestore();
+  db.settings({ timestampsInSnapshots: true });
+</script>
+<script src="forum.js"></script>
+
+
+    </body>
+<footer>
+  <p> Hand-crafted with &#x1F49C; by <a href= "https://www.linkedin.com/in/florence-kay-105315180/">Florence Kay </a><br><br>
+         Copywright, no one try to finesse my idea, I've worked so hard on this <br> <br>twitter |facebook |linkedin |instagram </p>
+</footer>
+</html>

@@ -1,0 +1,103 @@
+body {
+    font-family: "Raleway", serif;
+    background: -webkit-linear-gradient(top, #f88379 10%, #ffc3a0 90%);
+    height: 100%;
+    margin-top: 100px;
+}
+
+#sidebar {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    background: #f88379;
+    left: -200px;
+    cursor: pointer;
+    transition: all 500ms linear;
+    margin-top: -50px;
+    z-index: 1;
+}
+
+    #sidebar.active {
+        left: 0px;
+    }
+
+    #sidebar a {
+        color: white;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 25px;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+    #sidebar .toggle-btn {
+        position: absolute;
+        left: 230px;
+        /*top: 20px;*/
+        margin-top: -10px;
+    }
+
+        #sidebar .toggle-btn span {
+            display: block;
+            width: 20px;
+            height: 5px;
+            background: white;
+            margin: 3px 0px;
+        }
+
+
+#data {
+    background: #f88379;
+    color: #fff;
+    font-family: "Raleway", serif;
+    display: block;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 5px;
+    /*text-transform: uppercase;*/
+    padding: 5px;
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+h2 {
+    color: white;
+    margin-top: 30px;
+}
+
+#num1 {
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#num2 {
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#num3 {
+    border-radius: 5px;
+}
+
+#num4 {
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+#num5 {
+    border-radius: 5px;
+    margin-left: 50px;
+}
+
+#num6 {
+    border-radius: 5px;
+    margin-left: 30px;
+}
+
+#num7 {
+    border-radius: 5px;
+    margin-left: 35px;
+}
